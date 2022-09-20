@@ -33,4 +33,16 @@ header {
     padding-left: 0;
   }
 
+  span {
+    color: var(--accent-color);
+  }
   
+  address {
+    font-style: normal;
+    font-size: var(--primary-font-size);
+    line-height: 1.71;
+    letter-spacing: var(--primary-letter-spacing);
+    margin-top: 20px;
+    margin-right: 70px;
+    width: 231px;
+  }
