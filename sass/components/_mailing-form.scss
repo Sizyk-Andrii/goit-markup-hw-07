@@ -32,9 +32,8 @@
     align-items: center;
     letter-spacing: var(--primary-letter-spacing);
     color: var(--bg-color1);
-  }
-  
-  .footer-form-field__inpt::placeholder {
+    
+    &::placeholder {
     font-family: var(--primary-font);
     font-style: normal;
     font-weight: var(--third-font-weight);
@@ -45,6 +44,14 @@
     letter-spacing: var(--primary-letter-spacing);
     color: rgba(255, 255, 255, 0.6);
   }
+  
+    &:focus {
+    border-color: var(--accent-color);
+    outline: none;
+    transition: color 250ms var(--primary-timing-function);
+  }
+  }
+  
   
   .footer-form-field-btn {
     width: 200px;
@@ -70,9 +77,4 @@
     margin-left: 10px;
   }
   
-  .footer-form-field__inpt:focus {
-    border-color: var(--accent-color);
-    outline: none;
-    transition: color 250ms var(--primary-timing-function);
-  }
-  
+ 

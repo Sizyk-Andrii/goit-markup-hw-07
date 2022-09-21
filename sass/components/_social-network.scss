@@ -1,6 +1,3 @@
-
-
-
 .social-list {
   display: flex;
   align-items: center;
@@ -19,13 +16,12 @@
   border-radius: 50%;
   transition: background-color 250ms var(--primary-timing-function),
     fill 250ms var(--primary-timing-function);
-}
 
-.social-link:hover,
-.social-link:focus {
+    &:hover, &:focus {
   background-color: var(--accent-color);
   fill: var(--bg-color1);
   transition: color 250ms var(--primary-timing-function);
+}
 }
 
 .footer__block_invite {
@@ -53,13 +49,12 @@
     background-color: var(--social-link_footer-background-color);
     transition: background-color 250ms var(--primary-timing-function),
       fill 250ms var(--primary-timing-function);
-  }
-  
-  .footer__social-link:hover,
-  .footer__social-link:focus {
+
+      &:hover, &:focus {
     background-color: var(--accent-color);
     fill: var(--bg-color1);
     transition: color 250ms var(--primary-timing-function);
+  }
   }
   
   .footer__social-icon {

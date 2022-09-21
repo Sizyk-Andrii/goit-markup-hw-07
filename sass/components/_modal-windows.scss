@@ -30,10 +30,12 @@
     background-color: var(--bg-color1);
     border: 1px solid var(--button-text-shadow-primary-color);
     cursor: pointer;
+
+    &:hover {
+      fill: var(--accent-color);
+      transition: color 250ms var(--primary-timing-function);
+    }
   }
   
-  .modal__btn_window-close:hover {
-    fill: var(--accent-color);
-    transition: color 250ms var(--primary-timing-function);
-  }
+  
   

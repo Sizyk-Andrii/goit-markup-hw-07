@@ -1,22 +1,14 @@
-
-
-  
-
-
-  .our-team-list {
+   .our-team-list {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
   }
 
-
- 
   .our-team-section {
     background-color: var(--third-bg-color);
   }
 
-
-.specialists_name {
+  .specialists_name {
     font-weight: var(--secondary-font-weight);
     font-size: var(--secondary-font-size);
     line-height: var(--secondary-line-height);

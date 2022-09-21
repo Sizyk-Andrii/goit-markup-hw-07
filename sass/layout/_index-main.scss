@@ -34,12 +34,11 @@
     display: block;
     padding: 10px 32px;
     transition: background-color 250ms var(--primary-timing-function);
-  }
-  
-  .top-main-index-button:hover,
-  .top-main-index-button:focus {
+
+    &:hover, &:focus {
     background-color: var(--button-hover-focus-color);
     transition: color 250ms var(--primary-timing-function);
+    }
   }
   
   .top-main-index-title {

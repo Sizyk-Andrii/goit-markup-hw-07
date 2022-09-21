@@ -3,11 +3,21 @@
   .location {
     color: var(--bg-color1);
     transition: color 250ms var(--primary-timing-function);
+
+    &:hover, &:focus {
+  color: var(--accent-color);
+  transition: color 250ms var(--primary-timing-function);
+    }
   }
   
   .footer__menu-contacts {
     color: var(--menu-contacts-footer-color);
     transition: color 250ms var(--primary-timing-function);
+
+    &:hover, &:focus, {
+      color: var(--accent-color);
+      transition: color 250ms var(--primary-timing-function);
+    }
   }
   
   
@@ -26,10 +36,3 @@
     align-items: baseline;
   }
   
-  .footer__menu-contacts:hover,
-.footer__menu-contacts:focus,
-.location:hover,
-.location:focus {
-  color: var(--accent-color);
-  transition: color 250ms var(--primary-timing-function);
-}

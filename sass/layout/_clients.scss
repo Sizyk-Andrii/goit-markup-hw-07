@@ -15,11 +15,11 @@
     fill: var(--icon-color);
     transition: border-color 250ms var(--primary-timing-function),
       fill 250ms var(--primary-timing-function);
+
+      &:focus, &:hover {
+        border-color: var(--accent-color);
+        fill: var(--accent-color);
+        transition: color 250ms var(--primary-timing-function);
+    }
   }
   
-  .client__link:focus,
-  .client__link:hover {
-    border-color: var(--accent-color);
-    fill: var(--accent-color);
-    transition: color 250ms var(--primary-timing-function);
-}
